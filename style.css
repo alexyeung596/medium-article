@@ -1,0 +1,80 @@
+@media (max-width: 576px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 300px;
+  }
+}
+
+a:hover{
+  background-color: #e8cfdf;
+  transition: 0.3s ease;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  url("https://unsplash.com/photos/a-bird-flying-in-the-air-near-a-tree-l98W4FFG8G0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash");  background-size:cover;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.banner-content {
+  background: rgba(158, 217, 213, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 992px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, #007BFF, #0056b3);
+  color: white;
+  transition: background-image 0.3s, color 0.3s;
+}
+
+h2:hover {
+  font-size: 40px;
+  transition: background-image 0.3s;
+}
